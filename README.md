@@ -31,7 +31,7 @@ A fully undetected assembly reverse shell backdoor for Windows.
 
 - Very simple, Change the ip and the port in the asm file.
 
-- Use the `compile.bat` file to compile in link the asm file. Example : `compile.bat backdoor`.
+- Use the `compile.bat` file to compile and link the asm file. Example : `compile.bat backdoor`.
 
 - Run a netcat listener on attacker machine to get a shell back. Example: `nc -lvvp 3322`.
 
